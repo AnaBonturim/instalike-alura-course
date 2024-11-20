@@ -24,11 +24,12 @@
   },
   "contributors": [],
   "scripts": {
-    "dev": "nodemon server.js",
+    "dev": "node --watch server.js",
     "test": "node server.js"
   },
   "dependencies": {
     "express": "^4.21.1",
+    "mongodb": "^6.10.0",
     "nodemon": "^3.1.7"
   }
 }
